@@ -4,6 +4,8 @@
   "description": "A look at setting up a react project using parcel bundler",
   "main": "./src/index.js",
   "scripts": {
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
     "prestart": "rimraf dist",
     "start": "parcel ./src/index.html -p 3000",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -27,6 +29,8 @@
   "devDependencies": {
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
+    "eslint": "^4.15.0",
+    "eslint-plugin-react": "^7.5.1",
     "parcel-bundler": "^1.4.1",
     "rimraf": "^2.6.2"
   },
