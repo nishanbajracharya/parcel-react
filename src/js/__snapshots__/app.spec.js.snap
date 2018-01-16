@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render a h1 tag 1`] = `
+<h1>
+  Setting up React with Parcel bundler
+</h1>
+`;
