@@ -2,14 +2,14 @@
   "name": "parcel-react",
   "version": "1.0.0",
   "description": "A look at setting up a react project using parcel bundler",
-  "main": "./src/index.js",
+  "main": "./src/js/index.js",
   "scripts": {
     "lint": "eslint src",
     "lint:fix": "eslint src --fix",
     "prestart": "rimraf dist",
     "start": "parcel ./src/index.html -p 3000",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:production": "rimraf dist && parcel build ./src/index.html -d dist/"
+    "build:production": "rimraf dist && parcel build ./src/index.html -d dist/ --no-cache"
   },
   "repository": {
     "type": "git",
