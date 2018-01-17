@@ -20,7 +20,7 @@ A basic [React](https://reactjs.org/) starter using [Parcel](https://parceljs.or
 |[parcel-bundler](https://parceljs.org/)|1.4.1|
 
 ## Getting Started
-Go through the following steps to get started with this starter
+Go through the following steps to get started
 
 - Clone this repo
 
@@ -77,7 +77,7 @@ To contribute, follow one of the two options
   2. Steps to reproduce
   3. Possible solutions
 
-  Note: These details are recommended but entirely optional.
+  Note: These details are recommended but are entirely optional.
 
 - **Send a Pull Request**
 
